@@ -2,6 +2,7 @@
 
 JAVA_VERSION=17.0.4-amzn
 GRADLE_VERSION=7.3
+MAVEN_VERSION=3.9.8
 PKG=("zip", "unzip")
 
 for PKG in "${PKG[@]}" ; do
@@ -25,4 +26,5 @@ done
 curl -s "https://get.sdkman.io" | bash \
   && source "${HOME}/.sdkman/bin/sdkman-init.sh" \
   && sdk install java "${JAVA_VERSION}" \
-  && sdk install gradle ${GRADLE_VERSION}
+  && sdk install gradle ${GRADLE_VERSION} \
+  && sdk install maven ${MAVEN_VERSION}
