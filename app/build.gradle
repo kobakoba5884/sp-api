@@ -51,8 +51,6 @@ jsonSchema2Pojo {
 
   useJakartaValidation = true
 
-  useTitleAsClassname = true
-
   removeOldOutput = true
 }
 

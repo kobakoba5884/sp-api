@@ -3,7 +3,7 @@
   "$comment": "JSON Schema describing the document format for JSON Selling Partner Listings Feeds Processing Report (v2).",
   "title": "Selling Partner JSON Listings Feed Processing Report (v2)",
   "properties": {
-    "header": {
+    "processingReportHeader": {
       "title": "Processing Report Header",
       "description": "Header information about the feed submission.",
       "properties": {
@@ -153,7 +153,7 @@
     }
   },
   "required": [
-    "header",
+    "processingReportHeader",
     "issues",
     "summary"
   ],

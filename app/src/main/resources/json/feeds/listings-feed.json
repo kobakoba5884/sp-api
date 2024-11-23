@@ -3,7 +3,7 @@
   "$comment": "JSON Schema describing the document format for JSON Selling Partner Listings Feeds (v2).",
   "title": "Selling Partner Listings Feed (v2)",
   "properties": {
-    "header": {
+    "feedHeader": {
       "title": "Feed Header",
       "description": "Header information about the feed submission.",
       "properties": {
